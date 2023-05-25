@@ -5,6 +5,7 @@ class Solution:
         res = 0
 
         for i in range(len(s)):
+        #we are comparing here
             if i + 1 < len(s) and roman[s[i]] < roman[s[i+1]]:
                 res -= roman[s[i]]
 
